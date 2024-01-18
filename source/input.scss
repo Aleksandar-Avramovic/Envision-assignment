@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'aktivgrotesk-reguuploadedfile';
+    src: url('aktivgrotesk-regular-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$myFont: 'aktivgrotesk-reguuploadedfile', sans-serif;
+
+/* basic reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* header section */
+
+header {
+    background-color: #2E484F;
+    
+    img {
+        margin-left: 20px;
+    }
+
+    button {
+        background-color: #8FC232;
+        border: none;
+        padding: 10px 20px;
+        color: #FFFFFF;
+        letter-spacing: 0.7px;
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: $myFont;
+        
+    }
+
+    .header__container {
+        margin: 0 auto;
+        width: 1410px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+}
+
+/* banner section */
+
+.banner {
+    position: relative;
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+
+   .banner__container {
+    position: absolute;
+    top: 30px;
+    left: 254px;
+    width: 1410px;
+    display: flex;
+    justify-content: space-between;
+    
+    .banner__logo {
+        p {
+           font-family: $myFont;
+           color: #8FC232;
+           text-transform: uppercase;
+           letter-spacing: 1.68px;
+           font-size: 14px;
+        }
+    }
+        nav {
+            display: flex;
+            
+            
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                align-self: center;
+                
+                
+                
+
+                li {
+                    a {
+                        color: #FFFFFF;
+                        font-family: $myFont;
+                        font-size: 16px;
+                        letter-spacing: 0.8px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        margin-left: 60px;
+                        
+                        
+                    }
+                }
+            }
+        }
+   }
+
+   .banner__text--overlay {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 255px;
+        
+        h1 {
+            font-size: 60px;
+            color: #FFFFFF;
+            font-family: $myFont;
+            font-weight: bold;
+            text-align: left;
+        }
+        button {
+            background-color: #8FC232;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-family: $myFont;
+            padding: 30px 60px;
+            margin-top: 80px;
+            border: none;
+        }
+   }
+}
+
+
+
+

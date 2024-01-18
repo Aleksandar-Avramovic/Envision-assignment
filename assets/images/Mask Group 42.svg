@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="16" height="16" transform="translate(1845 393)" fill="#8fc232"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42" data-name="Mask Group 42" transform="translate(-1845 -393)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" d="M14.355,5.492c.01.142.01.284.01.426a9.266,9.266,0,0,1-9.33,9.33A9.267,9.267,0,0,1,0,13.777a6.784,6.784,0,0,0,.792.041,6.567,6.567,0,0,0,4.071-1.4A3.285,3.285,0,0,1,1.8,10.142a4.135,4.135,0,0,0,.619.051,3.468,3.468,0,0,0,.863-.112A3.28,3.28,0,0,1,.65,6.863V6.822a3.3,3.3,0,0,0,1.482.416A3.284,3.284,0,0,1,1.117,2.853,9.321,9.321,0,0,0,7.878,6.284,3.7,3.7,0,0,1,7.8,5.533a3.282,3.282,0,0,1,5.675-2.244A6.456,6.456,0,0,0,15.553,2.5,3.27,3.27,0,0,1,14.112,4.3,6.574,6.574,0,0,0,16,3.8a7.049,7.049,0,0,1-1.645,1.7Z" transform="translate(1845 392.249)" fill="#8fc232"/>
+  </g>
+</svg>
