@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Envision</title>
-    <link rel="stylesheet" href="./build/output.css">
-</head>
-<body>
-    
-        <header>
-            <div class="header__container">
-                <img src="./assets/images/Mask Group 3.svg" alt="instagram logo">
-                <img src="./assets/images/Mask Group 42.svg" alt="twitter logo">
-                <button>login</button>
-            </div>
-        </header>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./build/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__top container">
+        <img src="./assets/images/Mask Group 3.svg" alt="instagram logo" />
+        <img src="./assets/images/Mask Group 42.svg" alt="twitter logo" />
+        <button class="loginBtn">login</button>
+      </div>
 
-        <div class="banner">
-                <video muted autoplay loop 
-                src="./assets/video/EnvisionVideoBanner_logo_black.mp4" >
-                Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video>
-
-                <div class="banner__container">
-                    <div class="banner__logo">
-                        <img src="./assets/images/Group 63.svg" alt="company logo">
-                        <p>celebrating 10 years!</p>
-                    </div>
-                    
-                    <nav>
-                        <ul>
-                            <li><a href="#">solutions</a></li>
-                            <li><a href="#">envision in act</a></li>
-                            <li><a href="#">our vision</a></li>
-                            <li><a href="#">infograph</a></li>
-                            <li><a href="#">360&deg; vision</a></li>
-                            <li><a href="#">contact us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="banner__text--overlay">
-                    <h1>Pictures worth more than just a thousand words.</h1>
-                    <button>GET STARTED</button>
-                </div>
+      <div class="header__content container">
+        <div class="header__logo">
+          <img src="./assets/images/Group 63.svg" alt="envision company logo" />
+          <p>celebrating 10 years!</p>
         </div>
-    
-</body>
+
+        <nav>
+          <ul>
+            <li><a href="#">solutions</a></li>
+            <li><a href="#">envision in act</a></li>
+            <li><a href="#">our vision</a></li>
+            <li><a href="#">infograph</a></li>
+            <li><a href="#">360&deg; vision</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <video
+        muted
+        autoplay
+        loop
+        src="./assets/video/EnvisionVideoBanner_logo_black.mp4"
+      >
+        Your browser does not support the video tag. I suggest you upgrade your
+        browser.
+      </video>
+      <div class="hero__text--overlay container">
+        <h1>Pictures worth more than just a thousand words.</h1>
+        <button class="heroBtn">GET STARTED</button>
+      </div>
+    </div>
+  </body>
 </html>

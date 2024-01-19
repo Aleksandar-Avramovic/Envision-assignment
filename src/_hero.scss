@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -78px;
+    z-index: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero__text--overlay {
+    position: absolute;
+    width: 50%;
+    margin-top: 248px;
+    h1 {
+      font-size: 60px;
+      color: $primary-white;
+      font-family: $myFont;
+      font-weight: bold;
+      text-align: left;
+      z-index: 1;
+    }
+  }
+}

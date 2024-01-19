@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "aktivgrotesk-reguuploadedfile";
+  src: url("../assets/fonts/aktivgrotesk-regular-webfont.woff2") format("woff2"), url("../assets/fonts/aktivgrotesk-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.loginBtn {
+  background-color: #8FC232;
+  border: none;
+  padding: 15px 40px 11px 42px;
+  color: #FFFFFF;
+  letter-spacing: 0.7px;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+}
+
+.heroBtn {
+  background-color: #8FC232;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  padding: 30px 60px;
+  margin-top: 80px;
+  border: none;
+  cursor: pointer;
+}
+
+header .header__top {
+  background-color: #2E484F;
+  display: flex;
+  justify-content: flex-end;
+}
+header .header__top img {
+  padding-left: 30px;
+  cursor: pointer;
+}
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  z-index: 1;
+  background-color: transparent;
+}
+header .header__content .header__logo {
+  z-index: 1;
+}
+header .header__content nav {
+  align-self: center;
+  z-index: 1;
+}
+header .header__content nav ul {
+  display: flex;
+}
+header .header__content nav ul li {
+  align-items: center;
+}
+header .header__content nav ul li a {
+  color: #FFFFFF;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 50px;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+header .header__content p {
+  color: #8FC232;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.68px;
+  font-size: 14px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -78px;
+  z-index: 0;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.hero .hero__text--overlay {
+  position: absolute;
+  width: 50%;
+  margin-top: 248px;
+}
+.hero .hero__text--overlay h1 {
+  font-size: 60px;
+  color: #FFFFFF;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
