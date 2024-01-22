@@ -155,29 +155,9 @@ header .header__content p {
     margin-bottom: 20px;
   }
   header .header__content nav {
-    z-index: 999;
+    display: none;
   }
-  header .header__content nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2E484F;
-    top: 0;
-    left: 0;
-    text-align: center;
-  }
-  header .header__content nav ul li {
-    padding: 20px;
-  }
-  header .header__content nav ul li a:hover {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  header .header__hamburgerMenu {
+  header .header__content .header__hamburgerMenu {
     display: block;
     width: 50px;
     background-color: transparent;
