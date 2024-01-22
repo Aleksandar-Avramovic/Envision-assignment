@@ -2,6 +2,8 @@
   position: relative;
   width: 100%;
   display: flex;
+  align-items: center;
+  min-height: 778px;
 
   video {
     position: absolute;
@@ -15,16 +17,19 @@
   }
 
   .hero__text--overlay {
-    position: absolute;
-    width: 50%;
-    margin-top: 248px;
+    position: relative;
+    z-index: 1;
+
     h1 {
       font-size: 60px;
       color: $primary-white;
       font-family: $myFont;
       font-weight: bold;
       text-align: left;
-      z-index: 1;
+    }
+
+    a {
+      display: inline-block;
     }
   }
 }
