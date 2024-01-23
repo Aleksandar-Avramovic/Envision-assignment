@@ -84,10 +84,19 @@ header {
 }
 
 @media screen and (max-width: 1400px) {
-  .header__top {
-    margin-bottom: -16px;
-    img {
-      padding: 10px;
+  header {
+    .header__top {
+      margin-bottom: -16px;
+      img {
+        padding: 10px;
+      }
+    }
+    .header__content {
+      nav {
+        ul:last-child {
+          padding-right: 10px;
+        }
+      }
     }
   }
 }

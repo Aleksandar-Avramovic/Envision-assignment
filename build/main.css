@@ -157,11 +157,14 @@ header .header__content p {
 }
 
 @media screen and (max-width: 1400px) {
-  .header__top {
+  header .header__top {
     margin-bottom: -16px;
   }
-  .header__top img {
+  header .header__top img {
     padding: 10px;
+  }
+  header .header__content nav ul:last-child {
+    padding-right: 10px;
   }
 }
 @media screen and (max-width: 1220px) {
