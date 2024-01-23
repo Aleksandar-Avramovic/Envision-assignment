@@ -1,12 +1,19 @@
 .subHero {
   background-color: #212627;
-  min-height: 216px;
-  margin-top: -14px;
+  margin-top: -100px;
   min-height: 221px;
+  display: flex;
+  align-items: center;
 
   .subHero__container {
     margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
     .subHero__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       img {
         width: 60px;
         height: 40px;
@@ -21,6 +28,43 @@
         font-family: $myFont;
         text-align: center;
         padding: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subHero {
+    .subHero__container {
+      .subHero__wrapper {
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .subHero {
+    .subHero__container {
+      .subHero__wrapper {
+        width: 100px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subHero {
+    .subHero__container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      .subHero__wrapper {
+        align-self: center;
+        justify-self: center;
       }
     }
   }

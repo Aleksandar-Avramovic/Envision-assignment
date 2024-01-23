@@ -1,23 +1,27 @@
 .loginBtn {
-    background-color: $primary-green;
-        border: none;
-        padding: 15px 40px 11px 42px;
-        color: $primary-white;
-        letter-spacing: 0.7px;
-        margin-left: 30px;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-family: $myFont;
-        
+  background-color: $primary-green;
+  border: none;
+  padding: 15px 40px 11px 42px;
+  color: $primary-white;
+  letter-spacing: 0.7px;
+  margin-left: 15px;
+  // margin-right: -20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: $myFont;
+  max-width: 127px;
 }
 
 .heroBtn {
-        background-color: $primary-green;
-        color: $primary-white;
-        font-size: 18px;
-        font-family: $myFont;
-        padding: 30px 60px;
-        margin-top: 80px;
-        border: none;
-        cursor: pointer;
+  background-color: $primary-green;
+  color: $primary-white;
+  font-size: 18px;
+  font-family: $myFont;
+  padding: 30px 60px;
+  margin-top: 76px;
+  margin-bottom: -18px;
+  margin-left: -2px;
+  border: none;
+  cursor: pointer;
 }

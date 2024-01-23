@@ -3,9 +3,11 @@ header {
   .header__top {
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
+    height: 40px;
 
     img {
-      padding-left: 30px;
+      padding: 12px 15px 12px 15px;
       cursor: pointer;
     }
 
@@ -23,6 +25,11 @@ header {
 
     .header__logo {
       z-index: 1;
+      margin-top: 8px;
+      margin-left: -2px;
+      p {
+        margin-top: 4px;
+      }
     }
 
     .header__hamburgerMenu {
@@ -33,6 +40,8 @@ header {
       align-self: center;
       z-index: 1;
       display: flex;
+      margin-top: -10px;
+      margin-right: -10px;
       ul {
         display: flex;
 
@@ -43,7 +52,7 @@ header {
             color: $primary-white;
             font-family: $myFont;
             font-size: 16px;
-            letter-spacing: 0.8px;
+            letter-spacing: 2px;
             text-decoration: none;
             text-transform: uppercase;
             margin-left: 50px;
@@ -82,7 +91,21 @@ header {
     }
   }
 }
-
+@media screen and (max-width: 1220px) {
+  header {
+    .header__content {
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 1200px) {
   header {
     .header__top {
@@ -99,14 +122,6 @@ header {
         }
       }
     }
-  }
-}
-
-@media screen and (max-width: 992px) {
-  header {
-    .header__top {
-      margin-bottom: 20px;
-    }
     .header__content {
       nav {
         display: none;
@@ -120,6 +135,14 @@ header {
         z-index: 2;
         border: none;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    .header__top {
+      margin-bottom: 20px;
     }
   }
 }

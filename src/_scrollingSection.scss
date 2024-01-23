@@ -1,0 +1,13 @@
+.scrollingSection {
+  min-height: 500px;
+  margin-top: 250px;
+
+  h2 {
+    text-align: center;
+    font-family: $myFont;
+    font-size: 50px;
+    font-weight: bold;
+    color: $heading-color;
+    margin-bottom: 80px;
+  }
+}
