@@ -20,7 +20,7 @@
   .hero__text--overlay {
     position: relative;
     z-index: 1;
-    width: 64%;
+    width: 60%;
     margin-bottom: 148px;
 
     h1 {
@@ -42,6 +42,25 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1219px) {
   .hero {
-    margin-top: -85px;
+    margin-top: -65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    .hero__text--overlay {
+      width: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    .hero__text--overlay {
+      width: 100%;
+      h1 {
+        font-size: 48px;
+      }
+    }
   }
 }

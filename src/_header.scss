@@ -81,6 +81,25 @@ header {
   transition: background-color 0.8s ease, box-shadow 0.8s ease;
 }
 
+@media screen and (max-width: 1420px) {
+  header {
+    .header__content {
+      nav {
+        ul:last-child {
+          margin-right: 10px;
+        }
+        ul {
+          li {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1200px) {
   header {
     .header__content {

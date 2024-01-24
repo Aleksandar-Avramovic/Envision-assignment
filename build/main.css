@@ -154,6 +154,14 @@ header .header__content p {
   transition: background-color 0.8s ease, box-shadow 0.8s ease;
 }
 
+@media screen and (max-width: 1420px) {
+  header .header__content nav ul:last-child {
+    margin-right: 10px;
+  }
+  header .header__content nav ul li a {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 1200px) {
   header .header__content nav {
     display: none;
@@ -188,7 +196,7 @@ header .header__content p {
 .hero .hero__text--overlay {
   position: relative;
   z-index: 1;
-  width: 64%;
+  width: 60%;
   margin-bottom: 148px;
 }
 .hero .hero__text--overlay h1 {
@@ -206,7 +214,20 @@ header .header__content p {
 
 @media screen and (min-width: 1201px) and (max-width: 1219px) {
   .hero {
-    margin-top: -85px;
+    margin-top: -65px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero .hero__text--overlay {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero .hero__text--overlay {
+    width: 100%;
+  }
+  .hero .hero__text--overlay h1 {
+    font-size: 48px;
   }
 }
 .subHero {
