@@ -99,7 +99,6 @@ header .header__top a {
 header .header__content {
   display: flex;
   justify-content: space-between;
-  z-index: 1;
   background-color: transparent;
 }
 header .header__content .header__logo {
@@ -205,6 +204,11 @@ header .header__content p {
   display: inline-block;
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1219px) {
+  .hero {
+    margin-top: -85px;
+  }
+}
 .subHero {
   background-color: #212627;
   margin-top: -100px;
