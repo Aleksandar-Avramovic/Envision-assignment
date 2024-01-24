@@ -50,15 +50,27 @@
             </ul>
           </nav>
 
-          <button class="header__hamburgerMenu">
-            <img
-              src="./assets/images/menu-hamburger-white.svg"
-              alt="hamburger menu"
-            />
-          </button>
+          <div class="hamburger-menu">
+            <div class="menu-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+
+    <div class="sidebar container" id="mySidebar">
+      <ul>
+        <li><a href="#">solutions</a></li>
+        <li><a href="#">envision in act</a></li>
+        <li><a href="#">our vision</a></li>
+        <li><a href="#">infograph</a></li>
+        <li><a href="#">360&deg; vision</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </div>
 
     <div class="hero">
       <video
@@ -172,6 +184,41 @@
       </div>
     </section>
 
+    <section class="tabs__container container">
+      <h2>What can En<span>v</span>ision do for your business?</h2>
+      <div class="tabs__content">
+        <div class="tabs">
+          <div class="tabs__left">
+            <img src="./assets/images/Mask Group 67.svg" alt="building" />
+            <p>I WANT TO SHOW OFF MY SPACE</p>
+          </div>
+          <div class="tabs__right">
+            <img src="./assets/images/Mask Group 68.svg" alt="page" />
+            <p>I WANT TO DOCUMENT MY WORK</p>
+          </div>
+        </div>
+        <div class="tabs__col">
+          <div class="tabs__col-left">
+            <h3>
+              3D virtual tours for retailers, showrooms, party planners,
+              restaurants, and more
+            </h3>
+            <h4>Bring them into your space with a single click</h4>
+            <p>
+              Humans are visual beings. Your website could tell them about the
+              magnificence of your showroom, the beautiful items on your
+              shelves, and the elaborate events you plan – or you could show
+              them. Bring them into your world and gain an edge over your
+              competitors.
+            </p>
+          </div>
+          <div class="tabs__col-right">
+            <img src="./assets/images/Group 900.svg" alt="play button" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://code.jquery.com/jquery-3.7.1.slim.js"
       integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
@@ -181,6 +228,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./src/js/_hamburgerMenuTrigger.js"></script>
     <script src="./src/js/_scrollingSection.js"></script>
     <script src="./src/js/_stickyHeader.js"></script>
   </body>

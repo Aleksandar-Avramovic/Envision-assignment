@@ -1,7 +1,31 @@
 @font-face {
-    font-family: 'aktivgrotesk-reguuploadedfile';
-    src: url('../assets/fonts/aktivgrotesk-regular-webfont.woff2') format('woff2'),
-         url('../assets/fonts/aktivgrotesk-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "aktivgrotesk-reguuploadedfile";
+  src: url("../assets/fonts/aktivgrotesk-regular-webfont.woff2") format("woff2"),
+    url("../assets/fonts/aktivgrotesk-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Medium";
+  src: url("AktivGroteskCorp-Medium.eot");
+  src: local("AktivGroteskCorp-Medium"),
+    url("AktivGroteskCorp-Medium.eot?#iefix") format("embedded-opentype"),
+    url("AktivGroteskCorp-Medium.woff2") format("woff2"),
+    url("AktivGroteskCorp-Medium.woff") format("woff"),
+    url("AktivGroteskCorp-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Bold";
+  src: url("AktivGroteskCorp-Bold.eot");
+  src: local("AktivGroteskCorp-Bold"),
+    url("AktivGroteskCorp-Bold.eot?#iefix") format("embedded-opentype"),
+    url("AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("AktivGroteskCorp-Bold.woff") format("woff"),
+    url("AktivGroteskCorp-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
