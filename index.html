@@ -190,6 +190,85 @@
       </h2>
       <div class="tabs__content">
         <div class="tabs">
+          <div class="tabs__left active">
+            <div class="img-wrapper">
+              <img src="./assets/images/Mask Group 67.svg" alt="building" />
+              <img src="./assets/images/Group67-green.svg" alt="building" " />
+            </div>
+
+            <p>I WANT TO SHOW OFF MY SPACE</p>
+          </div>
+          <div class="tabs__right inactive">
+            <div class="img-wrapper">
+              <img src="./assets/images/Mask Group 68.svg" alt="page" />
+              <img src="./assets/images/Group68-white.svg" alt="page" />
+            </div>
+
+            <p>I WANT TO DOCUMENT MY WORK</p>
+          </div>
+        </div>
+        <div class="tabs__col">
+          <div class="tabs__col-left">
+            <h3>
+              3D virtual tours for retailers, showrooms, party planners,
+              restaurants, and more (text 1)
+            </h3>
+            <h4>Bring them into your space with a single click</h4>
+            <p>
+              Humans are visual beings. Your website could tell them about the
+              magnificence of your showroom, the beautiful items on your
+              shelves, and the elaborate events you plan – or you could show
+              them. Bring them into your world and gain an edge over your
+              competitors.
+            </p>
+          </div>
+          <div class="tabs__col-right">
+            <div class="tabs__img--under"></div>
+
+            <img
+              class="tabs__img--over"
+              src="./assets/images/Group 900.svg"
+              alt="play button"
+            />
+          </div>
+        </div>
+        <h5>Immersive 3D virtual tours for:</h5>
+        <div class="tabs__logo--wrapper">
+          <div class="tabs__logo">
+            <img src="./assets/images/Mask Group 69.svg" alt="a worker" />
+            <p>Retailers</p>
+          </div>
+          <div class="tabs__logo">
+            <img src="./assets/images/Mask Group 87.svg" alt="a heart" />
+            <p>Healthcare</p>
+          </div>
+          <div class="tabs__logo">
+            <img src="./assets/images/Mask Group 54.svg" alt="a hall" />
+            <p>Event halls</p>
+          </div>
+          <div class="tabs__logo">
+            <img src="./assets/images/Mask Group 49.svg" alt="a screen" />
+            <p>Showrooms</p>
+          </div>
+          <div class="tabs__logo">
+            <img src="./assets/images/Mask Group 59.svg" alt="a building" />
+            <p>Restaurants</p>
+          </div>
+          <div class="tabs__logo">
+            <img
+              src="./assets/images/Mask Group 60.svg"
+              alt="a hand and a star"
+            />
+            <p>Hospitality</p>
+          </div>
+        </div>
+        <div class="tabs__text--bordered">
+          <p>create a 3D virtual tour of your space</p>
+        </div>
+      </div>
+
+      <div class="tabs__content" style="display: none">
+        <div class="tabs">
           <div class="tabs__left">
             <img src="./assets/images/Mask Group 67.svg" alt="building" />
             <p>I WANT TO SHOW OFF MY SPACE</p>
@@ -203,7 +282,7 @@
           <div class="tabs__col-left">
             <h3>
               3D virtual tours for retailers, showrooms, party planners,
-              restaurants, and more
+              restaurants, and more (text 2)
             </h3>
             <h4>Bring them into your space with a single click</h4>
             <p>
@@ -216,9 +295,13 @@
           </div>
           <div class="tabs__col-right">
             <div class="tabs__img--under"></div>
-            <div class="tabs__img--over">
-              <img src="./assets/images/Group 900.svg" alt="play button" />
-            </div>
+
+            <img
+              class="tabs__img--over"
+              src="./assets/images/Group 900.svg"
+              alt="play button"
+              onclick="openPopup()"
+            />
           </div>
         </div>
         <h5>Immersive 3D virtual tours for:</h5>
@@ -269,5 +352,7 @@
     <script src="./src/js/_hamburgerMenuTrigger.js"></script>
     <script src="./src/js/_scrollingSection.js"></script>
     <script src="./src/js/_stickyHeader.js"></script>
+    <script src="./src/js/_videoPopup.js"></script>
+    <script src="./src/js/_tabChanger.js"></script>
   </body>
 </html>
