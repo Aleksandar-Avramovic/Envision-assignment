@@ -166,6 +166,9 @@ header .header__content nav ul li a {
   cursor: pointer;
   text-wrap: nowrap;
 }
+header .header__content nav ul li a:hover {
+  color: #8fc232;
+}
 header .header__content p {
   color: #8fc232;
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
@@ -312,7 +315,8 @@ header .header__content p {
 }
 @media screen and (max-width: 768px) {
   .subHero .subHero__container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -357,8 +361,7 @@ header .header__content p {
   flex-direction: column;
 }
 .sidebar ul li {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
   letter-spacing: 0.8px;
 }
 .sidebar ul li a {
@@ -372,190 +375,156 @@ header .header__content p {
   color: #8fc232;
 }
 
-.container {
-  position: relative;
-}
-.container .text--center {
-  color: #142023;
+h2 {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 50px;
-  font-weight: bold;
   text-align: center;
+  margin-bottom: 50px;
 }
-.container .text--center span {
+h2 span {
   color: #8fc232;
 }
-.container .tabs__content {
-  position: absolute;
-  background-color: #fff;
+
+.tabs__container {
   min-height: 803px;
-  margin-top: 50px;
+  background-color: #fff;
 }
-.container .tabs__content .tabs {
-  cursor: pointer;
+.tabs__container .tabs {
   display: flex;
-  justify-content: center;
+}
+.tabs__container .tabs .tabs--left,
+.tabs__container .tabs .tabs--right {
   min-height: 100px;
-  border: 2px solid #f5f5f5;
-}
-.container .tabs__content .tabs .tabs__left {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  width: 100%;
-}
-.container .tabs__content .tabs .tabs__left p {
-  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-left: 20px;
-}
-.container .tabs__content .tabs .tabs__left .img-wrapper {
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-.container .tabs__content .tabs .tabs__left .img-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-}
-.container .tabs__content .tabs .tabs__right {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.container .tabs__content .tabs .tabs__right p {
-  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-left: 20px;
-}
-.container .tabs__content .tabs .tabs__right .img-wrapper {
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-.container .tabs__content .tabs .tabs__right .img-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-}
-.container .tabs__content .tabs__col {
-  display: flex;
-}
-.container .tabs__content .tabs__col .tabs__col-left {
+  background-color: #fff;
   width: 50%;
-  text-align: left;
-  padding: 80px 0 30px 30px;
+  cursor: pointer;
 }
-.container .tabs__content .tabs__col .tabs__col-left h3 {
-  margin-bottom: 50px;
-  font-size: 25px;
+.tabs__container .tabs .tabs--left p,
+.tabs__container .tabs .tabs--right p {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  color: #2e484f;
   font-weight: bold;
+  font-size: 20px;
+  color: #8fc232;
 }
-.container .tabs__content .tabs__col .tabs__col-left h4 {
-  margin-bottom: 20px;
-  font-size: 18px;
+.tabs__container .tabs .tabs--left.active,
+.tabs__container .tabs .tabs--right.active {
+  background-color: #8fc232;
+}
+.tabs__container .tabs .tabs--left.active p,
+.tabs__container .tabs .tabs--right.active p {
+  color: #fff;
+}
+.tabs__container .tabs__content {
+  min-height: 703px;
+}
+.tabs__container .tabs__content .content__wrapper {
+  display: flex;
+}
+.tabs__container .tabs__content .col-left {
+  width: 50%;
+  padding: 80px 0 50px 80px;
+}
+.tabs__container .tabs__content .col-left h3 {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: bold;
   color: #2e484f;
+  margin-bottom: 50px;
 }
-.container .tabs__content .tabs__col .tabs__col-left p {
-  font-size: 18px;
+.tabs__container .tabs__content .col-left h4 {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  color: #606364;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e484f;
+  margin-bottom: 20px;
 }
-.container .tabs__content .tabs__col .tabs__col-right {
+.tabs__container .tabs__content .col-left p {
+  color: #606364;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.tabs__container .tabs__content .col-right {
   background-image: url("../assets/images/Group 908.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 50%;
-  position: relative;
-  text-align: center;
-}
-.container .tabs__content .tabs__col .tabs__col-right .tabs__img--over {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  max-height: 100%;
-  cursor: pointer;
-}
-.container .tabs__content h5 {
-  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #606364;
-  text-align: left;
-  padding-left: 30px;
-}
-.container .tabs__content .tabs__logo--wrapper {
   display: flex;
-  gap: 50px;
-  padding: 30px 80px 80px 30px;
-}
-.container .tabs__content .tabs__logo--wrapper .tabs__logo {
-  display: flex;
-  gap: 15px;
+  justify-content: center;
   align-items: center;
 }
-.container .tabs__content .tabs__logo--wrapper .tabs__logo img {
+.tabs__container .tabs__content .col-right img {
+  cursor: pointer;
+}
+.tabs__container .tabs__content h5 {
+  color: #606364;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 80px;
+  margin-bottom: 30px;
+}
+.tabs__container .tabs__content .content__logos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+  padding-left: 80px;
+  margin-bottom: 80px;
+}
+.tabs__container .tabs__content .content__logos .img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.tabs__container .tabs__content .content__logos .img-wrapper img {
   width: 40px;
   height: 40px;
 }
-.container .tabs__content .tabs__logo--wrapper .tabs__logo p {
-  font-size: 18px;
-  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  color: #606364;
-  text-align: left;
-  text-wrap: nowrap;
-}
-.container .tabs__content .tabs__text--bordered {
+.tabs__container .tabs__content .text--bordered {
   position: relative;
   margin-left: 30px;
-  max-width: 28%;
+  max-width: 30%;
   min-height: 80px;
+  margin-left: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid #8fc232;
 }
-.container .tabs__content .tabs__text--bordered p {
+.tabs__container .tabs__content .text--bordered p {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   font-weight: bold;
   color: #2e484f;
+  font-size: 16px;
 }
-.container .tabs__content .tabs__text--bordered::before,
-.container .tabs__content .tabs__text--bordered::after {
+.tabs__container .tabs__content .text--bordered::before,
+.tabs__container .tabs__content .text--bordered::after {
   content: "";
   position: absolute;
-  height: 3px;
+  height: 4px;
   background-color: #fff;
 }
-.container .tabs__content .tabs__text--bordered::before {
+.tabs__container .tabs__content .text--bordered::before {
   right: -3px;
   bottom: -3px;
   width: 4px;
   height: 75%;
   background-color: #fff;
 }
-.container .tabs__content .tabs__text--bordered::after {
+.tabs__container .tabs__content .text--bordered::after {
   width: 50%;
   bottom: -3px;
   right: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
