@@ -1,4 +1,4 @@
-function changeTab(clickedTab, tabId) {
+function tabChanger(clickedTab, tabId) {
   document.getElementById("tab1Content").classList.add("hidden");
   document.getElementById("tab2Content").classList.add("hidden");
   document.getElementById("tab1Image1").classList.add("hidden");

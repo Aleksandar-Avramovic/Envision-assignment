@@ -99,6 +99,11 @@ header {
   z-index: 9999;
   width: 100%;
   transition: background-color 0.8s ease, box-shadow 0.8s ease;
+  .header__content {
+    nav {
+      margin-top: 3px;
+    }
+  }
 }
 
 .menu-open {

@@ -1,0 +1,12 @@
+.background-img {
+  position: absolute;
+  top: 2430px;
+  background-image: url("../assets/images/Mask Group 70.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 1520px;
+  background-color: $header-background-color;
+  z-index: -1;
+}
