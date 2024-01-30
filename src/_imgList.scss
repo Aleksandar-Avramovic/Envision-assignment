@@ -1,0 +1,39 @@
+.img-list {
+  .container-small {
+    min-height: 730px;
+    background-color: #fff;
+    padding: 80px 80px;
+    h3 {
+      font-family: $myFont;
+      font-size: 50px;
+      font-weight: bold;
+      color: $header-background-color;
+      margin-bottom: 80px;
+      text-transform: capitalize;
+    }
+    .img-list__content {
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+        li {
+          .logo-wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            img {
+              width: 60px;
+              height: 60px;
+            }
+            p {
+              font-family: $myFont;
+              color: $header-background-color;
+              font-weight: bold;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
