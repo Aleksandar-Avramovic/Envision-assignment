@@ -12,6 +12,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 30px;
+      position: relative;
 
       .box {
         display: flex;
@@ -20,10 +21,12 @@
         background-color: #fff;
         max-width: 330px;
         padding: 30px 40px 60px 40px;
+
         img {
           margin-bottom: 40px;
           width: 80px;
           height: 80px;
+          transition: transform 1.5s ease;
         }
         h4 {
           margin-bottom: 20px;
@@ -55,8 +58,10 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      overflow: hidden;
+
       img {
-        visibility: hidden;
+        transform: translate(265%, -40%);
       }
       h4 {
         color: #fff;
@@ -68,6 +73,7 @@
         color: #c5c0c0;
       }
     }
+
     .box-last {
       position: relative;
       display: flex;

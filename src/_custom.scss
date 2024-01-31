@@ -11,3 +11,11 @@
     margin-left: auto;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .container-smaller {
+    max-width: 894px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

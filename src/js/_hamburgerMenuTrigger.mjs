@@ -1,5 +1,4 @@
- 
-  export function hamburgerMenuTrigger () {
+export function hamburgerMenuTrigger() {
   const mobileMenu = document.getElementById("mobile-menu");
   const navbar = document.querySelector(".hamburger-menu");
   const sidebar = document.getElementById("mySidebar");
@@ -36,4 +35,4 @@
     document.body.style.overflow = "auto";
     document.documentElement.style.overflow = "auto";
   }
-};
+}

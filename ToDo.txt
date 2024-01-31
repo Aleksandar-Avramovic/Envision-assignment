@@ -1,0 +1,7 @@
+31.01.2024.
+
+- sredi hover na boxes section i dodaj animaciju sa slikama
+- vrati se na pocetak i cisti perfect pixel
+- odradi sekcije da budu responsive
+- na sticky headeru dodati da linkovi budu u aktivnom stanju kada skrolujemo na odredjenu sekciju
+- pronadji kako da uradis import js fajlova u main.js koji ces importovati kroz script element u HTML

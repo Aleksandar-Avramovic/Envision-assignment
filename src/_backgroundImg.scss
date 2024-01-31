@@ -10,3 +10,16 @@
   background-color: $header-background-color;
   z-index: -1;
 }
+
+.background-img--small {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  background-image: url("/assets/images/Path 661.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 500px;
+  height: 534px;
+  z-index: -1;
+}

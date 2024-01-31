@@ -1,8 +1,11 @@
 .img-list {
+  margin-bottom: 150px;
   .container-small {
     min-height: 730px;
     background-color: #fff;
     padding: 80px 80px;
+    border: 2px solid $primary-green;
+    position: relative;
     h3 {
       font-family: $myFont;
       font-size: 50px;
@@ -35,5 +38,26 @@
         }
       }
     }
+  }
+  .bordered::before,
+  .bordered::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #fff;
+  }
+  .bordered::before {
+    top: 0;
+    right: -3px;
+    bottom: -3px;
+    width: 4px;
+    height: 80%;
+  }
+
+  .bordered::after {
+    width: 50%;
+    height: -4px;
+    right: -2px;
+    top: -3px;
   }
 }

@@ -60,7 +60,21 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container {
+    max-width: 1570px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-small {
     max-width: 1410px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-smaller {
+    max-width: 894px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 body {
@@ -184,7 +198,11 @@ header .header__content p {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   width: 100%;
+  padding: 10px;
   transition: background-color 0.8s ease, box-shadow 0.8s ease;
+}
+.header--sticky .header__content nav {
+  margin-top: 3px;
 }
 
 .menu-open .bar:nth-child(1) {
@@ -361,7 +379,7 @@ header .header__content p {
   flex-direction: column;
 }
 .sidebar ul li {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   letter-spacing: 0.8px;
 }
 .sidebar ul li a {
@@ -371,8 +389,8 @@ header .header__content p {
   text-transform: uppercase;
 }
 .sidebar ul li a:hover {
-  font-size: 32px;
   color: #8fc232;
+  transform: scale(1.2);
 }
 
 h2 {
@@ -388,6 +406,7 @@ h2 span {
 .tabs__container {
   min-height: 803px;
   background-color: #fff;
+  margin-bottom: 150px;
 }
 .tabs__container .tabs {
   display: flex;
@@ -525,6 +544,252 @@ h2 span {
 
 .hidden {
   display: none;
+}
+
+.background-img {
+  position: absolute;
+  top: 2430px;
+  background-image: url("../assets/images/Mask Group 70.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 1520px;
+  background-color: #2e484f;
+  z-index: -1;
+}
+
+.background-img--small {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  background-image: url("/assets/images/Path 661.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 500px;
+  height: 534px;
+  z-index: -1;
+}
+
+.boxes-section {
+  margin-bottom: 350px;
+}
+.boxes-section .container-small h3 {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 50px;
+}
+.boxes-section .container-small .boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  position: relative;
+}
+.boxes-section .container-small .boxes .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  max-width: 330px;
+  padding: 30px 40px 60px 40px;
+}
+.boxes-section .container-small .boxes .box img {
+  margin-bottom: 40px;
+  width: 80px;
+  height: 80px;
+  transition: transform 1.5s ease;
+}
+.boxes-section .container-small .boxes .box h4 {
+  margin-bottom: 20px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #2e484f;
+}
+.boxes-section .container-small .boxes .box p {
+  margin-bottom: 80px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #606364;
+}
+.boxes-section .container-small .boxes .box a {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #8fc232;
+  cursor: pointer;
+}
+.boxes-section .container-small .boxes .box a .arrow {
+  margin-left: 20px;
+}
+.boxes-section .container-small .box:hover {
+  background-image: url("../assets/images/stock-photo-work-from-home-working-remotely-during-coronavirus-crisis-new-normal-working-concept-group-of-2002639589.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.boxes-section .container-small .box:hover img {
+  transform: translate(265%, -40%);
+}
+.boxes-section .container-small .box:hover h4 {
+  color: #fff;
+}
+.boxes-section .container-small .box:hover p {
+  color: #c5c0c0;
+}
+.boxes-section .container-small .box:hover a {
+  color: #c5c0c0;
+}
+.boxes-section .container-small .box-last {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 330px;
+  padding: 60px 40px;
+  border: 2px solid #8fc232;
+}
+.boxes-section .container-small .box-last h4 {
+  margin-bottom: 20px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+.boxes-section .container-small .box-last p {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #bac4c6;
+  margin-bottom: 60px;
+}
+.boxes-section .container-small .box-last a button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #8fc232;
+  border: none;
+  padding: 30px 60px;
+  width: 100%;
+}
+.boxes-section .container-small .box-last::before,
+.boxes-section .container-small .box-last::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #2e484f;
+}
+.boxes-section .container-small .box-last::before {
+  right: -3px;
+  bottom: -3px;
+  width: 4px;
+  height: 80%;
+}
+.boxes-section .container-small .box-last::after {
+  width: 50%;
+  bottom: -3px;
+  right: 0;
+}
+
+.img-list {
+  margin-bottom: 150px;
+}
+.img-list .container-small {
+  min-height: 730px;
+  background-color: #fff;
+  padding: 80px 80px;
+  border: 2px solid #8fc232;
+  position: relative;
+}
+.img-list .container-small h3 {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #2e484f;
+  margin-bottom: 80px;
+  text-transform: capitalize;
+}
+.img-list .container-small .img-list__content ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+.img-list .container-small .img-list__content ul li .logo-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.img-list .container-small .img-list__content ul li .logo-wrapper img {
+  width: 60px;
+  height: 60px;
+}
+.img-list .container-small .img-list__content ul li .logo-wrapper p {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  color: #2e484f;
+  font-weight: bold;
+  font-size: 18px;
+}
+.img-list .bordered::before,
+.img-list .bordered::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #fff;
+}
+.img-list .bordered::before {
+  top: 0;
+  right: -3px;
+  bottom: -3px;
+  width: 4px;
+  height: 80%;
+}
+.img-list .bordered::after {
+  width: 50%;
+  height: -4px;
+  right: -2px;
+  top: -3px;
+}
+
+.learn-more {
+  position: relative;
+}
+.learn-more .container-smaller {
+  min-height: 419px;
+}
+.learn-more .container-smaller .content {
+  text-align: center;
+  padding-top: 70px;
+}
+.learn-more .container-smaller .content h2 {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #8fc232;
+  margin-bottom: 20px;
+}
+.learn-more .container-smaller .content h3 {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #142023;
+  margin-bottom: 40px;
+}
+.learn-more .container-smaller .content p {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #606364;
+  margin-bottom: 80px;
+}
+.learn-more .container-smaller .content a button {
+  border: none;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #8fc232;
+  padding: 30px 60px 30px 60px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

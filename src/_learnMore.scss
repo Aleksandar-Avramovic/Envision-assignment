@@ -1,0 +1,44 @@
+.learn-more {
+  position: relative;
+  .container-smaller {
+    min-height: 419px;
+    .content {
+      text-align: center;
+      padding-top: 70px;
+
+      h2 {
+        font-family: $myFont;
+        font-weight: bold;
+        font-size: 18px;
+        color: $primary-green;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-family: $myFont;
+        font-weight: bold;
+        font-size: 50px;
+        color: #142023;
+        margin-bottom: 40px;
+      }
+      p {
+        font-family: $myFont;
+        font-size: 18px;
+        color: #606364;
+        margin-bottom: 80px;
+      }
+
+      a {
+        button {
+          border: none;
+          font-family: $myFont;
+          font-size: 18px;
+          color: #fff;
+          text-transform: uppercase;
+          background-color: $primary-green;
+          padding: 30px 60px 30px 60px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
