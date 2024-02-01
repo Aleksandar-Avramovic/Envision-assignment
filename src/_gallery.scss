@@ -1,0 +1,287 @@
+.gallery {
+  min-height: 1411px;
+  background-color: $header-background-color;
+  .container-small {
+    padding: 150px 0;
+    .gallery__title {
+      text-align: left;
+      font-family: $myFont;
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+    .gallery__grid {
+      display: flex;
+      gap: 30px;
+      .grid__left {
+        .left__card-wrapper--top {
+          display: flex;
+          gap: 30px;
+          max-width: 690px;
+          margin-bottom: 30px;
+          .left__card--first,
+          .left__card--second {
+            position: relative;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 0 40px 30px;
+            gap: 10px;
+            border: 2px solid $header-background-color;
+            .card__title {
+              font-family: $myFont;
+              font-size: 32px;
+              font-weight: 700;
+              color: #fff;
+              letter-spacing: 2px;
+            }
+            .card__link:link,
+            .card__link:visited {
+              font-family: $myFont;
+              font-size: 18px;
+              color: #fff;
+              .arrow {
+                margin-left: 20px;
+                transition: margin-left 0.3s ease;
+              }
+            }
+          }
+          .left__card--first::before,
+          .left__card--first::after,
+          .left__card--second::before,
+          .left__card--second::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            background-color: $header-background-color;
+          }
+          .left__card--first::before,
+          .left__card--second::before {
+            right: -3px;
+            bottom: -3px;
+            width: 3px;
+            height: 80%;
+          }
+
+          .left__card--first::after,
+          .left__card--second::after {
+            width: 50%;
+            bottom: -3px;
+            right: 0;
+          }
+          .left__card--first {
+            background-image: url("/assets/images/Group 1396.png");
+            min-width: 330px;
+            min-height: 450px;
+          }
+          .left__card--second {
+            background-image: url("/assets/images/Group 1397.png");
+            min-width: 330px;
+            min-height: 450px;
+          }
+          .left__card--first:hover,
+          .left__card--second:hover {
+            border: 2px solid $primary-green;
+            .card__link {
+              color: $primary-green;
+              .arrow {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+
+        .left__card-wrapper--bottom {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          max-width: 690px;
+          .left__card--third,
+          .left__card--fourth {
+            position: relative;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 0 40px 30px;
+            gap: 10px;
+            border: 2px solid $header-background-color;
+            .card__title {
+              font-family: $myFont;
+              font-size: 32px;
+              font-weight: 700;
+              color: #fff;
+              letter-spacing: 2px;
+            }
+            .card__link:link,
+            .card__link:visited {
+              font-family: $myFont;
+              font-size: 18px;
+              color: #fff;
+              .arrow {
+                margin-left: 20px;
+                transition: margin-left 0.3s ease;
+              }
+            }
+          }
+          .left__card--third::before,
+          .left__card--third::after,
+          .left__card--fourth::before,
+          .left__card--fourth::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            background-color: $header-background-color;
+          }
+          .left__card--third::before,
+          .left__card--fourth::before {
+            right: -3px;
+            bottom: -3px;
+            width: 3px;
+            height: 80%;
+          }
+
+          .left__card--third::after,
+          .left__card--fourth::after {
+            width: 50%;
+            bottom: -3px;
+            right: 0;
+          }
+          .left__card--third {
+            background-image: url("/assets/images/Group 1400.png");
+            min-width: 690px;
+            min-height: 250px;
+          }
+          .left__card--fourth {
+            background-image: url("/assets/images/Group 1401.png");
+            min-width: 690px;
+            min-height: 250px;
+          }
+          .left__card--third:hover,
+          .left__card--fourth:hover {
+            border: 2px solid $primary-green;
+            .card__link {
+              color: $primary-green;
+              .arrow {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+      }
+
+      .grid__right {
+        max-width: 690px;
+        .right__card-wrapper--top {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          max-width: 690px;
+          margin-bottom: 30px;
+          .right__card--first,
+          .right__card--second {
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 0 40px 30px;
+            gap: 10px;
+            .card__title {
+              font-family: $myFont;
+              font-size: 32px;
+              font-weight: 700;
+              color: #fff;
+              letter-spacing: 2px;
+            }
+            .card__link:link,
+            .card__link:visited {
+              font-family: $myFont;
+              font-size: 18px;
+              color: #fff;
+              .arrow {
+                margin-left: 20px;
+              }
+            }
+          }
+          .right__card--first::before,
+          .right__card--first::after,
+          .right__card--second::before,
+          .right__card--second::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            background-color: $header-background-color;
+          }
+          .right__card--first::before,
+          .right__card--second::before {
+            right: -3px;
+            bottom: -3px;
+            width: 3px;
+            height: 80%;
+          }
+
+          .right__card--first::after,
+          .right__card--second::after {
+            width: 50%;
+            bottom: -3px;
+            right: 0;
+          }
+          .right__card--first {
+            background-image: url("/assets/images/Group 1398.png");
+            min-width: 690px;
+            min-height: 250px;
+          }
+          .right__card--second {
+            background-image: url("/assets/images/Group 1399.png");
+            min-width: 690px;
+            min-height: 250px;
+          }
+        }
+
+        .right__card-wrapper--bottom {
+          display: flex;
+          gap: 30px;
+          max-width: 690px;
+          .right__card--third,
+          .right__card--fourth {
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 0 40px 30px;
+            gap: 10px;
+            .card__title {
+              line-height: 1.5;
+              font-family: $myFont;
+              font-size: 32px;
+              font-weight: 700;
+              color: #fff;
+              letter-spacing: 2px;
+            }
+            .card__link:link,
+            .card__link:visited {
+              font-family: $myFont;
+              font-size: 18px;
+              color: #fff;
+              .arrow {
+                margin-left: 20px;
+              }
+            }
+          }
+          .right__card--third {
+            background-image: url("/assets/images/Group 1402.png");
+            min-width: 330px;
+            min-height: 450px;
+          }
+          .right__card--fourth {
+            background-image: url("/assets/images/Group 1403.png");
+            min-width: 330px;
+            min-height: 450px;
+          }
+        }
+      }
+    }
+  }
+}
