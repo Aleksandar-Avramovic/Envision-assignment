@@ -993,12 +993,14 @@ h2 span {
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second {
+  position: relative;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 40px 30px;
   gap: 10px;
+  border: 2px solid #2e484f;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first .card__title,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second .card__title {
@@ -1021,6 +1023,7 @@ h2 span {
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second .card__link:link .arrow,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second .card__link:visited .arrow {
   margin-left: 20px;
+  transition: margin-left 0.3s ease;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first::before,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first::after,
@@ -1054,6 +1057,18 @@ h2 span {
   min-width: 690px;
   min-height: 250px;
 }
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first:hover,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second:hover {
+  border: 2px solid #8fc232;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first:hover .card__link,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second:hover .card__link {
+  color: #8fc232;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first:hover .card__link .arrow,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second:hover .card__link .arrow {
+  margin-left: 40px;
+}
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom {
   display: flex;
   gap: 30px;
@@ -1061,12 +1076,14 @@ h2 span {
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth {
+  position: relative;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 40px 30px;
   gap: 10px;
+  border: 2px solid #2e484f;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third .card__title,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth .card__title {
@@ -1090,6 +1107,29 @@ h2 span {
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth .card__link:link .arrow,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth .card__link:visited .arrow {
   margin-left: 20px;
+  transition: margin-left 0.3s ease;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third::before,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third::after,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth::before,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #2e484f;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third::before,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth::before {
+  right: -3px;
+  bottom: -3px;
+  width: 3px;
+  height: 80%;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third::after,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth::after {
+  width: 50%;
+  bottom: -3px;
+  right: 0;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third {
   background-image: url("/assets/images/Group 1402.png");
@@ -1100,6 +1140,18 @@ h2 span {
   background-image: url("/assets/images/Group 1403.png");
   min-width: 330px;
   min-height: 450px;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third:hover,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth:hover {
+  border: 2px solid #8fc232;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third:hover .card__link,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth:hover .card__link {
+  color: #8fc232;
+}
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third:hover .card__link .arrow,
+.gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth:hover .card__link .arrow {
+  margin-left: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

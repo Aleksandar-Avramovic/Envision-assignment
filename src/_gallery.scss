@@ -182,12 +182,14 @@
           margin-bottom: 30px;
           .right__card--first,
           .right__card--second {
+            position: relative;
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             padding: 0 0 40px 30px;
             gap: 10px;
+            border: 2px solid $header-background-color;
             .card__title {
               font-family: $myFont;
               font-size: 32px;
@@ -202,6 +204,7 @@
               color: #fff;
               .arrow {
                 margin-left: 20px;
+                transition: margin-left 0.3s ease;
               }
             }
           }
@@ -238,6 +241,16 @@
             min-width: 690px;
             min-height: 250px;
           }
+          .right__card--first:hover,
+          .right__card--second:hover {
+            border: 2px solid $primary-green;
+            .card__link {
+              color: $primary-green;
+              .arrow {
+                margin-left: 40px;
+              }
+            }
+          }
         }
 
         .right__card-wrapper--bottom {
@@ -246,12 +259,14 @@
           max-width: 690px;
           .right__card--third,
           .right__card--fourth {
+            position: relative;
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             padding: 0 0 40px 30px;
             gap: 10px;
+            border: 2px solid $header-background-color;
             .card__title {
               line-height: 1.5;
               font-family: $myFont;
@@ -267,8 +282,32 @@
               color: #fff;
               .arrow {
                 margin-left: 20px;
+                transition: margin-left 0.3s ease;
               }
             }
+          }
+          .right__card--third::before,
+          .right__card--third::after,
+          .right__card--fourth::before,
+          .right__card--fourth::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            background-color: $header-background-color;
+          }
+          .right__card--third::before,
+          .right__card--fourth::before {
+            right: -3px;
+            bottom: -3px;
+            width: 3px;
+            height: 80%;
+          }
+
+          .right__card--third::after,
+          .right__card--fourth::after {
+            width: 50%;
+            bottom: -3px;
+            right: 0;
           }
           .right__card--third {
             background-image: url("/assets/images/Group 1402.png");
@@ -279,6 +318,16 @@
             background-image: url("/assets/images/Group 1403.png");
             min-width: 330px;
             min-height: 450px;
+          }
+          .right__card--third:hover,
+          .right__card--fourth:hover {
+            border: 2px solid $primary-green;
+            .card__link {
+              color: $primary-green;
+              .arrow {
+                margin-left: 40px;
+              }
+            }
           }
         }
       }
