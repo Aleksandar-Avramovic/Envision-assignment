@@ -830,6 +830,7 @@ h2 span {
   padding: 0 0 40px 30px;
   gap: 10px;
   border: 2px solid #2e484f;
+  transition: border 0.3s ease;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--top .left__card--first .card__title,
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--top .left__card--second .card__title {
@@ -914,6 +915,7 @@ h2 span {
   padding: 0 0 40px 30px;
   gap: 10px;
   border: 2px solid #2e484f;
+  transition: border 0.3s ease;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--bottom .left__card--third .card__title,
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--bottom .left__card--fourth .card__title {
@@ -1002,6 +1004,7 @@ h2 span {
   padding: 0 0 40px 30px;
   gap: 10px;
   border: 2px solid #2e484f;
+  transition: border 0.3s ease;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first .card__title,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second .card__title {
@@ -1085,6 +1088,7 @@ h2 span {
   padding: 0 0 40px 30px;
   gap: 10px;
   border: 2px solid #2e484f;
+  transition: border 0.3s ease;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third .card__title,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth .card__title {
