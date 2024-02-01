@@ -1155,6 +1155,9 @@ h2 span {
   margin-left: 40px;
 }
 
+.numbers {
+  margin-bottom: 150px;
+}
 .numbers .container-small {
   display: flex;
   justify-content: space-between;
