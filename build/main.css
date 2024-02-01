@@ -1247,4 +1247,86 @@ h2 span {
   top: -3px;
 }
 
+.slider .container-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slider .container-small .slider__title {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 48px;
+  color: #212627;
+  font-weight: bold;
+}
+.slider .container-small .slider__card--container .slider__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  min-height: 370px;
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.slider .container-small .slider__card--container .slider__card .card__img {
+  margin-bottom: 20px;
+}
+.slider .container-small .slider__card--container .slider__card .card__text {
+  margin-bottom: 80px;
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  color: #212627;
+}
+.slider .container-small .slider__card--container .slider__card .card__rating {
+  margin-bottom: 20px;
+}
+.slider .container-small .slider__card--container .slider__card .card__author {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #212627;
+  letter-spacing: 1.5;
+}
+
+.custom-dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.custom-dot {
+  width: 16px; /* Adjust dot size */
+  height: 16px; /* Adjust dot size */
+  border: 1px solid #c5c5c5; /* Gray border */
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  background-color: #fff;
+}
+
+.inner-circle {
+  width: 8px; /* Adjust inner circle size */
+  height: 8px; /* Adjust inner circle size */
+  background-color: #8fc232; /* Green inner circle color */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.custom-dot.slick-active {
+  background-color: white; /* White background for active dot */
+}
+
+.slick-active .inner-circle {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
