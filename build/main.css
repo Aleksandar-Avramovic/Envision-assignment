@@ -797,6 +797,7 @@ h2 span {
 .gallery {
   min-height: 1411px;
   background-color: #2e484f;
+  margin-bottom: 200px;
 }
 .gallery .container-small {
   padding: 150px 0;
@@ -1152,6 +1153,91 @@ h2 span {
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third:hover .card__link .arrow,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth:hover .card__link .arrow {
   margin-left: 40px;
+}
+
+.numbers .container-small {
+  display: flex;
+  justify-content: space-between;
+}
+.numbers .container-small .numbers__box {
+  position: relative;
+  min-height: 386px;
+  min-width: 386px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #8fc232;
+}
+.numbers .container-small .numbers__box .box__counter {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #2e484f;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.numbers .container-small .numbers__box .box__text {
+  font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e484f;
+}
+.numbers .container-small .first-box::after,
+.numbers .container-small .first-box::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #f5f5f5;
+}
+.numbers .container-small .first-box:before {
+  top: -2px;
+  right: -4px;
+  bottom: -3px;
+  width: 5px;
+  height: 80%;
+}
+.numbers .container-small .first-box::after {
+  width: 50%;
+  bottom: -4px;
+  right: 0;
+  top: -2px;
+}
+.numbers .container-small .second-box::after,
+.numbers .container-small .second-box::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #f5f5f5;
+}
+.numbers .container-small .second-box:before {
+  bottom: -2px;
+  left: -3px;
+  width: 5px;
+  height: 80%;
+}
+.numbers .container-small .second-box::after {
+  width: 50%;
+  left: 0;
+  bottom: -3px;
+}
+.numbers .container-small .third-box::after,
+.numbers .container-small .third-box::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: #f5f5f5;
+}
+.numbers .container-small .third-box:before {
+  top: -2px;
+  left: -3px;
+  width: 4px;
+  height: 80%;
+}
+.numbers .container-small .third-box::after {
+  width: 50%;
+  left: 0;
+  top: -3px;
 }
 
 /*# sourceMappingURL=main.css.map */
