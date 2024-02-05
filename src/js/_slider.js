@@ -1,13 +1,17 @@
 $(document).ready(function () {
-  $(".slider__container").slick({
+  const $sliderContainer = $(".slider__container");
+
+  $sliderContainer.slick({
+    prevArrow: $(".custom-prev-arrow"),
+    nextArrow: $(".custom-next-arrow"),
+    variableWidth: true,
     centerMode: true,
     centerPadding: "0",
     initialSlide: 2,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     dots: true,
-    variableWidth: true,
   });
 });

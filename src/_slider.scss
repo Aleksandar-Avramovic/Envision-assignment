@@ -16,6 +16,7 @@
       margin: 0 15px 40px 15px;
       opacity: 0.5;
       width: 750px;
+      //   position: relative;
 
       display: flex;
       flex-direction: column;
@@ -41,10 +42,37 @@
         font-weight: bold;
         color: #212627;
       }
+
+      .card__arrow {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      .left {
+        left: 0;
+        top: 50%;
+        transform: translate(-75%, -50%);
+      }
+
+      .right {
+        right: 0;
+        top: 50%;
+        transform: translate(75%, -50%);
+      }
     }
 
     .slick-center {
       opacity: 1;
+      position: relative;
     }
 
     .slick-dots {

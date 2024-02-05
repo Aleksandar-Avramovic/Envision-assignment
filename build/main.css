@@ -1288,8 +1288,32 @@ h2 span {
   font-weight: bold;
   color: #212627;
 }
+.slider .slider__container .slider__card .card__arrow {
+  position: absolute;
+  border: none;
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.slider .slider__container .slider__card .left {
+  left: 0;
+  top: 50%;
+  transform: translate(-75%, -50%);
+}
+.slider .slider__container .slider__card .right {
+  right: 0;
+  top: 50%;
+  transform: translate(75%, -50%);
+}
 .slider .slider__container .slick-center {
   opacity: 1;
+  position: relative;
 }
 .slider .slider__container .slick-dots {
   display: flex;
