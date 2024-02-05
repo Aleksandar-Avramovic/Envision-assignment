@@ -1,4 +1,4 @@
-31.01.2024.
+05.02.2024.
 
 - vrati se na pocetak i cisti perfect pixel
 - odradi sekcije da budu responsive
