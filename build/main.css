@@ -563,7 +563,7 @@ h2 span {
   position: absolute;
   top: 0;
   left: 700px;
-  background-image: url("/assets/images/Path 661.svg");
+  background-image: url("../assets/images/Path 661.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -878,12 +878,12 @@ h2 span {
   right: 0;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--top .left__card--first {
-  background-image: url("/assets/images/Group 1396.png");
+  background-image: url("../assets/images/Group 1396.png");
   min-width: 330px;
   min-height: 450px;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--top .left__card--second {
-  background-image: url("/assets/images/Group 1397.png");
+  background-image: url("../assets/images/Group 1397.png");
   min-width: 330px;
   min-height: 450px;
 }
@@ -963,12 +963,12 @@ h2 span {
   right: 0;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--bottom .left__card--third {
-  background-image: url("/assets/images/Group 1400.png");
+  background-image: url("../assets/images/Group 1400.png");
   min-width: 690px;
   min-height: 250px;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--bottom .left__card--fourth {
-  background-image: url("/assets/images/Group 1401.png");
+  background-image: url("../assets/images/Group 1401.png");
   min-width: 690px;
   min-height: 250px;
 }
@@ -1052,12 +1052,12 @@ h2 span {
   right: 0;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--first {
-  background-image: url("/assets/images/Group 1398.png");
+  background-image: url("../assets/images/Group 1398.png");
   min-width: 690px;
   min-height: 250px;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--top .right__card--second {
-  background-image: url("/assets/images/Group 1399.png");
+  background-image: url("../assets/images/Group 1399.png");
   min-width: 690px;
   min-height: 250px;
 }
@@ -1137,12 +1137,12 @@ h2 span {
   right: 0;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third {
-  background-image: url("/assets/images/Group 1402.png");
+  background-image: url("../assets/images/Group 1402.png");
   min-width: 330px;
   min-height: 450px;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--fourth {
-  background-image: url("/assets/images/Group 1403.png");
+  background-image: url("../assets/images/Group 1403.png");
   min-width: 330px;
   min-height: 450px;
 }
