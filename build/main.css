@@ -1260,8 +1260,9 @@ h2 span {
 .slider .slider__container .slider__card {
   background-color: #fff;
   padding: 50px;
-  margin-bottom: 40px;
+  margin: 0 15px 40px 15px;
   opacity: 0.5;
+  width: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
