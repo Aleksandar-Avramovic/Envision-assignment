@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const $sliderContainer = $(".slider__container");
+  const $sliderContainer = $(".card__container");
 
   $sliderContainer.slick({
     prevArrow: $(".custom-prev-arrow"),
