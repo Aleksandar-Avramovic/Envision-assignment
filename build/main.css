@@ -1170,7 +1170,7 @@ header .header__content p {
 }
 
 .numbers {
-  margin-bottom: 150px;
+  margin-bottom: 139px;
 }
 .numbers .container-small {
   display: flex;
@@ -1279,13 +1279,13 @@ header .header__content p {
   z-index: 1;
 }
 .slider .slider__container .left {
-  left: 29%;
-  top: 50%;
+  left: 30%;
+  top: 55%;
   transform: translate(-50%, -50%);
 }
 .slider .slider__container .right {
-  right: 29%;
-  top: 50%;
+  right: 28%;
+  top: 55%;
   transform: translate(50%, -50%);
 }
 .slider .slider__container .slider__header {
@@ -1298,7 +1298,7 @@ header .header__content p {
 .slider .slider__container .card__container .slider__card {
   background-color: #fff;
   padding: 50px;
-  margin: 0 15px 40px 15px;
+  margin: 0 16px 28px 17px;
   opacity: 0.5;
   transition: opacity 0.3s ease;
   width: 750px;
@@ -1308,18 +1308,19 @@ header .header__content p {
   justify-content: center;
 }
 .slider .slider__container .card__container .slider__card .card__img {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .slider .slider__container .card__container .slider__card .card__quote {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: #212627;
-  margin-bottom: 80px;
+  margin-bottom: 74px;
   line-height: 34px;
 }
 .slider .slider__container .card__container .slider__card .card__rating {
-  margin-bottom: 20px;
+  margin-bottom: 13px;
+  margin-left: 10px;
 }
 .slider .slider__container .card__container .slider__card .card__author {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
