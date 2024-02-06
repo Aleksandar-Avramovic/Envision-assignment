@@ -1,161 +1,168 @@
-h2 {
-  font-family: $myFont;
-  font-size: 50px;
-  text-align: center;
-  span {
-    color: $primary-green;
-  }
-  margin-bottom: 50px;
-}
-
-.tabs__container {
-  min-height: 803px;
-  background-color: #fff;
-  margin-bottom: 150px;
-
-  .tabs {
-    display: flex;
-    .tabs--left,
-    .tabs--right {
-      min-height: 100px;
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-      background-color: #fff;
-      width: 50%;
-      cursor: pointer;
-
-      p {
-        font-family: $myFont;
-        font-weight: bold;
-        font-size: 20px;
-        color: $primary-green;
-      }
+.container {
+  margin-top: -120px;
+  h2 {
+    font-family: $myFont;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    span {
+      color: $primary-green;
     }
-
-    .tabs--left.active,
-    .tabs--right.active {
-      background-color: $primary-green;
-      p {
-        color: #fff;
-      }
-    }
+    margin-bottom: 50px;
   }
 
-  .tabs__content {
-    .content__wrapper {
-      display: flex;
-    }
-    min-height: 703px;
-    .col-left {
-      width: 50%;
-      padding: 80px 0 50px 80px;
-      h3 {
-        font-family: $myFont;
-        font-size: 25px;
-        font-weight: bold;
-        color: $header-background-color;
-        margin-bottom: 50px;
-      }
-      h4 {
-        font-family: $myFont;
-        font-size: 18px;
-        font-weight: 700;
-        color: $header-background-color;
-        margin-bottom: 20px;
-      }
-      p {
-        color: #606364;
-        font-family: $myFont;
-        font-size: 18px;
-        line-height: 1.55;
-      }
-    }
+  .tabs__container {
+    min-height: 803px;
+    background-color: #fff;
+    margin-bottom: 150px;
 
-    .col-right {
-      background-image: url("../assets/images/Group 908.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 50%;
+    .tabs {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      img {
-        cursor: pointer;
-      }
-    }
-
-    h5 {
-      color: #606364;
-      font-family: $myFont;
-      font-size: 18px;
-      font-weight: 700;
-      padding-left: 80px;
-      margin-bottom: 30px;
-    }
-
-    .content__logos {
-      display: flex;
-      justify-content: flex-start;
-      gap: 80px;
-      padding-left: 80px;
-      margin-bottom: 80px;
-      .img-wrapper {
+      .tabs--left,
+      .tabs--right {
+        min-height: 100px;
         display: flex;
+        gap: 20px;
+        justify-content: center;
         align-items: center;
-        gap: 15px;
-        img {
-          width: 40px;
-          height: 40px;
+        background-color: #fff;
+        width: 50%;
+        cursor: pointer;
+
+        p {
+          font-family: $myFont;
+          font-weight: bold;
+          font-size: 20px;
+          color: $primary-green;
+          padding-top: 5px;
+        }
+      }
+
+      .tabs--left.active,
+      .tabs--right.active {
+        background-color: $primary-green;
+        p {
+          color: #fff;
         }
       }
     }
 
-    .text--bordered {
-      position: relative;
-      margin-left: 30px;
-      max-width: 30%;
-      min-height: 80px;
-      margin-left: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 2px solid $primary-green;
-      p {
+    .tabs__content {
+      .content__wrapper {
+        display: flex;
+      }
+      min-height: 703px;
+      .col-left {
+        width: 50%;
+        padding: 74px 0px 34px 76px;
+        h3 {
+          font-family: $myFont;
+          font-size: 25px;
+          font-weight: bold;
+          color: $header-background-color;
+          margin-bottom: 50px;
+        }
+        h4 {
+          font-family: $myFont;
+          font-size: 18px;
+          font-weight: 700;
+          color: $header-background-color;
+          margin-bottom: 10px;
+        }
+        p {
+          color: #606364;
+          font-family: $myFont;
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+
+      .col-right {
+        background-image: url("../assets/images/Group 908.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(10%, 13%);
+        img {
+          cursor: pointer;
+        }
+      }
+
+      h5 {
+        color: #606364;
         font-family: $myFont;
-        text-transform: uppercase;
-        letter-spacing: 0.8px;
-        font-weight: bold;
-        color: $header-background-color;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 80px;
+        margin-bottom: 30px;
+        padding-top: 8px;
+      }
+
+      .content__logos {
+        display: flex;
+        justify-content: flex-start;
+        gap: 95px;
+        padding-left: 80px;
+        margin-bottom: 80px;
+        .img-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      .text--bordered {
+        position: relative;
+        margin-left: 30px;
+        max-width: 29%;
+        min-height: 80px;
+        margin-left: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $primary-green;
+        p {
+          font-family: $myFont;
+          text-transform: uppercase;
+          letter-spacing: 0.8px;
+          font-weight: bold;
+          color: $header-background-color;
+          font-size: 16px;
+        }
+      }
+
+      .text--bordered::before,
+      .text--bordered::after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        background-color: #fff;
+      }
+
+      .text--bordered::before {
+        right: -3px;
+        bottom: -3px;
+        width: 4px;
+        height: 75%;
+        background-color: #fff;
+      }
+
+      .text--bordered::after {
+        width: 50%;
+        bottom: -3px;
+        right: 0;
       }
     }
-
-    .text--bordered::before,
-    .text--bordered::after {
-      content: "";
-      position: absolute;
-      height: 4px;
-      background-color: #fff;
-    }
-
-    .text--bordered::before {
-      right: -3px;
-      bottom: -3px;
-      width: 4px;
-      height: 75%;
-      background-color: #fff;
-    }
-
-    .text--bordered::after {
-      width: 50%;
-      bottom: -3px;
-      right: 0;
-    }
   }
-}
 
-.hidden {
-  display: none;
+  .hidden {
+    display: none;
+  }
 }
