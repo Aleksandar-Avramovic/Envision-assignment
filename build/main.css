@@ -88,6 +88,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.7px;
   margin-left: 15px;
+  margin-right: -8px;
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: 14px;
@@ -114,8 +115,8 @@ header {
 header .header__top {
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
   height: 40px;
+  margin-bottom: 20px;
 }
 header .header__top img {
   padding: 12px 15px 12px 15px;
@@ -132,7 +133,7 @@ header .header__content {
 header .header__content .header__logo {
   z-index: 1;
   margin-top: 8px;
-  margin-left: -2px;
+  padding-left: 8px;
 }
 header .header__content .header__logo p {
   margin-top: 4px;
@@ -161,7 +162,8 @@ header .header__content nav {
   z-index: 1;
   display: flex;
   margin-top: -10px;
-  margin-right: -10px;
+  padding-right: 2px;
+  letter-spacing: 0.8px;
 }
 header .header__content nav ul {
   display: flex;
@@ -173,10 +175,10 @@ header .header__content nav ul li a {
   color: #ffffff;
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 0.8px;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 50px;
+  margin-left: 60px;
   cursor: pointer;
   text-wrap: nowrap;
 }

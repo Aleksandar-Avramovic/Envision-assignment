@@ -3,8 +3,8 @@ header {
   .header__top {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
     height: 40px;
+    margin-bottom: 20px;
 
     img {
       padding: 12px 15px 12px 15px;
@@ -24,7 +24,7 @@ header {
     .header__logo {
       z-index: 1;
       margin-top: 8px;
-      margin-left: -2px;
+      padding-left: 8px;
       p {
         margin-top: 4px;
       }
@@ -55,7 +55,8 @@ header {
       z-index: 1;
       display: flex;
       margin-top: -10px;
-      margin-right: -10px;
+      padding-right: 2px;
+      letter-spacing: 0.8px;
       ul {
         display: flex;
 
@@ -66,10 +67,10 @@ header {
             color: $primary-white;
             font-family: $myFont;
             font-size: 16px;
-            letter-spacing: 2px;
+            letter-spacing: 0.8px;
             text-decoration: none;
             text-transform: uppercase;
-            margin-left: 50px;
+            margin-left: 60px;
             cursor: pointer;
             text-wrap: nowrap;
           }
