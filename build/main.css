@@ -1400,12 +1400,14 @@ header .header__content p {
   font-weight: 500;
   color: #fff;
   text-wrap: nowrap;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 .sign-up .container-small .sign-up__form {
   display: flex;
 }
 .sign-up .container-small .sign-up__form .form__input {
-  padding: 34px 150px 28px 30px;
+  padding: 30px 270px 28px 30px;
   outline: none;
   border: none;
 }
@@ -1429,7 +1431,7 @@ header .header__content p {
   letter-spacing: 0.9px;
   text-transform: uppercase;
   border: none;
-  padding: 35px 71px 27px 71px;
+  padding: 27px 64px 27px 71px;
   background-color: #2e484f;
 }
 
