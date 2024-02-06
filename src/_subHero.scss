@@ -1,71 +1,35 @@
 .subHero {
+  height: 221px;
   background-color: #212627;
-  margin-top: -100px;
-  min-height: 221px;
+  margin-top: -79px;
   display: flex;
   align-items: center;
-
-  .subHero__container {
-    margin-top: 60px;
+  justify-content: center;
+  .container-small {
     display: flex;
-    justify-content: space-between;
 
-    .subHero__wrapper {
+    gap: 90px;
+    .subHero__logo {
+      width: 210px;
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
       align-items: center;
-      img {
-        width: 60px;
+      gap: 15px;
+      text-align: center;
+      padding-left: 14px;
+      padding-top: 8px;
+      .logo__icon {
         height: 40px;
+        width: 40px;
       }
-
-      p {
-        display: block;
-        width: 220px;
-        color: #f5f5f5;
-        font-size: 16px;
-        letter-spacing: 0.8px;
+      .logo__text {
         font-family: $myFont;
-        text-align: center;
-        padding: 20px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .subHero {
-    .subHero__container {
-      .subHero__wrapper {
-        width: 200px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .subHero {
-    .subHero__container {
-      .subHero__wrapper {
-        width: 100px;
-        p {
-          font-size: 12px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .subHero {
-    .subHero__container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      .subHero__wrapper {
-        align-self: center;
-        justify-self: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #f5f5f5;
+        letter-spacing: 0.8px;
+        line-height: 24px;
       }
     }
   }
