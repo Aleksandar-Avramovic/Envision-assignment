@@ -7,6 +7,8 @@
       font-weight: bold;
       color: #f5f5f5;
       margin-bottom: 50px;
+      padding-left: 8px;
+      letter-spacing: 2px;
     }
     .boxes {
       display: grid;
@@ -20,7 +22,8 @@
         justify-content: space-between;
         background-color: #fff;
         max-width: 330px;
-        padding: 30px 40px 60px 40px;
+        max-height: 399px;
+        padding: 24px 40px 44px 49px;
 
         img {
           margin-bottom: 40px;
@@ -29,7 +32,7 @@
           transition: transform 1.5s ease;
         }
         h4 {
-          margin-bottom: 20px;
+          margin-bottom: 15px;
           font-family: $myFont;
           font-size: 25px;
           font-weight: bold;
@@ -42,10 +45,12 @@
           color: #606364;
         }
         a {
+          display: inline-block;
           font-family: $myFont;
           font-size: 18px;
           color: $primary-green;
           cursor: pointer;
+
           .arrow {
             margin-left: 20px;
           }
