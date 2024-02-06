@@ -1377,8 +1377,9 @@ header .header__content p {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  padding: 39px 60px 35px 60px;
+  padding: 33px 60px 33px 60px;
   width: 238px;
+  margin-left: 16px;
 }
 
 .sign-up {
