@@ -12,9 +12,10 @@
       align-items: center;
       justify-content: center;
       border: 2px solid $primary-green;
+      line-height: 36px;
       .box__counter {
         font-family: $myFont;
-        font-size: 50px;
+        font-size: 52px;
         font-weight: bold;
         color: $header-background-color;
         letter-spacing: 2px;
@@ -22,7 +23,7 @@
       }
       .box__text {
         font-family: $myFont;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         color: $header-background-color;
       }

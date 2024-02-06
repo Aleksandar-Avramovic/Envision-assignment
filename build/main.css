@@ -1106,7 +1106,8 @@ header .header__content p {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 0.8px;
+  line-height: 38px;
 }
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third .card__link:link,
 .gallery .container-small .gallery__grid .grid__right .right__card-wrapper--bottom .right__card--third .card__link:visited,
@@ -1184,10 +1185,11 @@ header .header__content p {
   align-items: center;
   justify-content: center;
   border: 2px solid #8fc232;
+  line-height: 36px;
 }
 .numbers .container-small .numbers__box .box__counter {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-size: 50px;
+  font-size: 52px;
   font-weight: bold;
   color: #2e484f;
   letter-spacing: 2px;
@@ -1195,7 +1197,7 @@ header .header__content p {
 }
 .numbers .container-small .numbers__box .box__text {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: #2e484f;
 }
