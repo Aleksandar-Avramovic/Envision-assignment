@@ -701,7 +701,7 @@ header .header__content p {
 .img-list .container-small {
   min-height: 730px;
   background-color: #fff;
-  padding: 80px 80px;
+  padding: 141px 136px;
   border: 2px solid #8fc232;
   position: relative;
 }
@@ -716,11 +716,12 @@ header .header__content p {
 .img-list .container-small .img-list__content ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 60px;
+  row-gap: 33px;
+  column-gap: 182px;
 }
 .img-list .container-small .img-list__content ul li .logo-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
 }
 .img-list .container-small .img-list__content ul li .logo-wrapper img {
@@ -755,7 +756,7 @@ header .header__content p {
 }
 
 .learn-more {
-  margin-bottom: 130px;
+  margin-bottom: 197px;
   position: relative;
 }
 .learn-more .container-smaller {
@@ -770,20 +771,20 @@ header .header__content p {
   font-weight: bold;
   font-size: 18px;
   color: #8fc232;
-  margin-bottom: 20px;
+  margin-bottom: 11px;
 }
 .learn-more .container-smaller .content h3 {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #142023;
-  margin-bottom: 40px;
+  margin-bottom: 34px;
 }
 .learn-more .container-smaller .content p {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 18px;
   color: #606364;
-  margin-bottom: 80px;
+  margin-bottom: 77px;
 }
 .learn-more .container-smaller .content a button {
   border: none;

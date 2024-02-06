@@ -3,7 +3,7 @@
   .container-small {
     min-height: 730px;
     background-color: #fff;
-    padding: 80px 80px;
+    padding: 141px 136px;
     border: 2px solid $primary-green;
     position: relative;
     h3 {
@@ -18,11 +18,12 @@
       ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 60px;
+        row-gap: 33px;
+        column-gap: 182px;
         li {
           .logo-wrapper {
             display: flex;
-            gap: 20px;
+            gap: 30px;
             align-items: center;
             img {
               width: 60px;
