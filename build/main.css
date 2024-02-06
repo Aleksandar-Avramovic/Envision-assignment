@@ -1393,6 +1393,8 @@ h2 span {
 }
 .sign-up .container-small .sign-up__form .form__input {
   padding: 34px 150px 28px 30px;
+  outline: none;
+  border: none;
 }
 .sign-up .container-small .sign-up__form .form__input::placeholder {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
@@ -1400,6 +1402,11 @@ h2 span {
   font-weight: 500;
   color: #606364;
   letter-spacing: 0.9px;
+  outline: none;
+}
+.sign-up .container-small .sign-up__form .form__input:focus {
+  outline: none;
+  border: none;
 }
 .sign-up .container-small .sign-up__form .form__submit {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;

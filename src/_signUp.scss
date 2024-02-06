@@ -19,6 +19,8 @@
       display: flex;
       .form__input {
         padding: 34px 150px 28px 30px;
+        outline: none;
+        border: none;
       }
       .form__input::placeholder {
         font-family: $myFont;
@@ -26,6 +28,11 @@
         font-weight: 500;
         color: #606364;
         letter-spacing: 0.9px;
+        outline: none;
+      }
+      .form__input:focus {
+        outline: none;
+        border: none;
       }
       .form__submit {
         font-family: $myFont;
