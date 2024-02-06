@@ -803,7 +803,7 @@ header .header__content p {
   margin-bottom: 200px;
 }
 .gallery .container-small {
-  padding: 150px 0;
+  padding: 144px 0;
 }
 .gallery .container-small .gallery__title {
   text-align: left;
@@ -811,11 +811,13 @@ header .header__content p {
   font-size: 50px;
   font-weight: bold;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
+  padding-left: 9px;
 }
 .gallery .container-small .gallery__grid {
   display: flex;
   gap: 30px;
+  margin-top: 38px;
 }
 .gallery .container-small .gallery__grid .grid__left .left__card-wrapper--top {
   display: flex;
@@ -830,7 +832,8 @@ header .header__content p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 40px 30px;
+  padding-bottom: 27px;
+  padding-left: 36px;
   gap: 10px;
   border: 2px solid #2e484f;
   transition: border 0.3s ease;
@@ -915,7 +918,8 @@ header .header__content p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 40px 30px;
+  padding-bottom: 27px;
+  padding-left: 36px;
   gap: 10px;
   border: 2px solid #2e484f;
   transition: border 0.3s ease;
@@ -1004,7 +1008,8 @@ header .header__content p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 40px 30px;
+  padding-bottom: 27px;
+  padding-left: 36px;
   gap: 10px;
   border: 2px solid #2e484f;
   transition: border 0.3s ease;
@@ -1088,7 +1093,8 @@ header .header__content p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 40px 30px;
+  padding-bottom: 27px;
+  padding-left: 36px;
   gap: 10px;
   border: 2px solid #2e484f;
   transition: border 0.3s ease;

@@ -3,18 +3,20 @@
   background-color: $header-background-color;
   margin-bottom: 200px;
   .container-small {
-    padding: 150px 0;
+    padding: 144px 0;
     .gallery__title {
       text-align: left;
       font-family: $myFont;
       font-size: 50px;
       font-weight: bold;
       color: #fff;
-      letter-spacing: 2px;
+      letter-spacing: 1.5px;
+      padding-left: 9px;
     }
     .gallery__grid {
       display: flex;
       gap: 30px;
+      margin-top: 38px;
       .grid__left {
         .left__card-wrapper--top {
           display: flex;
@@ -28,7 +30,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 0 0 40px 30px;
+            padding-bottom: 27px;
+            padding-left: 36px;
             gap: 10px;
             border: 2px solid $header-background-color;
             transition: border 0.3s ease;
@@ -107,7 +110,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 0 0 40px 30px;
+            padding-bottom: 27px;
+            padding-left: 36px;
             gap: 10px;
             border: 2px solid $header-background-color;
             transition: border 0.3s ease;
@@ -190,7 +194,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 0 0 40px 30px;
+            padding-bottom: 27px;
+            padding-left: 36px;
             gap: 10px;
             border: 2px solid $header-background-color;
             transition: border 0.3s ease;
@@ -268,7 +273,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 0 0 40px 30px;
+            padding-bottom: 27px;
+            padding-left: 36px;
             gap: 10px;
             border: 2px solid $header-background-color;
             transition: border 0.3s ease;
