@@ -132,6 +132,7 @@ header .header__top img {
 }
 header .header__top a {
   align-self: center;
+  text-align: center;
 }
 header .header__content {
   display: flex;
@@ -142,6 +143,7 @@ header .header__content .header__logo {
   z-index: 1;
   margin-top: 8px;
   padding-left: 8px;
+  text-wrap: nowrap;
 }
 header .header__content .header__logo p {
   margin-top: 4px;
@@ -151,6 +153,7 @@ header .header__content .hamburger-menu {
   position: relative;
   z-index: 1001;
   margin: 10px;
+  margin-right: 30px;
 }
 header .header__content .hamburger-menu .menu-toggle {
   cursor: pointer;
@@ -175,6 +178,7 @@ header .header__content nav {
 }
 header .header__content nav ul {
   display: flex;
+  text-align: center;
 }
 header .header__content nav ul li {
   align-items: center;
@@ -189,6 +193,7 @@ header .header__content nav ul li a {
   margin-left: 60px;
   cursor: pointer;
   text-wrap: nowrap;
+  display: inline-block;
 }
 header .header__content nav ul li a:hover {
   color: #8fc232;
@@ -225,12 +230,21 @@ header .header__content p {
   transform: rotate(-45deg) translate(10px, -11px);
 }
 
-@media screen and (max-width: 1420px) {
-  header .header__content nav ul:last-child {
-    margin-right: 10px;
+@media screen and (max-width: 1450px) {
+  header .header__top {
+    margin-right: 30px;
+  }
+  header .header__content nav {
+    margin-right: 16px;
+  }
+  header .header__content nav ul li {
+    transform: scale(0.9);
   }
   header .header__content nav ul li a {
-    font-size: 14px;
+    margin-left: 50px;
+  }
+  header .header__content .header__logo {
+    margin-left: 16px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -547,14 +561,17 @@ header .header__content p {
 .background-img {
   position: absolute;
   top: 2195px;
+  left: 0;
   background-image: url("../assets/images/Mask Group 70.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   width: 100%;
+  height: 100%;
   min-height: 1520px;
   background-color: #2e484f;
   z-index: -1;
+  margin: 0 auto;
 }
 
 .background-img--small {
