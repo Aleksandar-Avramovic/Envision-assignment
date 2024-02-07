@@ -546,7 +546,7 @@ header .header__content p {
 
 .background-img {
   position: absolute;
-  top: 2430px;
+  top: 2195px;
   background-image: url("../assets/images/Mask Group 70.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -560,7 +560,8 @@ header .header__content p {
 .background-img--small {
   position: absolute;
   top: 0;
-  left: 700px;
+  left: 50%;
+  transform: translateX(-50%);
   background-image: url("../assets/images/Path 661.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1279,14 +1280,14 @@ header .header__content p {
   z-index: 1;
 }
 .slider .slider__container .left {
-  left: 30%;
+  left: 50%;
   top: 55%;
-  transform: translate(-50%, -50%);
+  transform: translate(-546%, -50%);
 }
 .slider .slider__container .right {
-  right: 28%;
+  right: 50%;
   top: 55%;
-  transform: translate(50%, -50%);
+  transform: translate(546%, -50%);
 }
 .slider .slider__container .slider__header {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
