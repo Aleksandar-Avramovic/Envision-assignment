@@ -1,35 +1,80 @@
 .subHero {
-  height: 221px;
+  min-height: 221px;
   background-color: #212627;
   margin-top: -79px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   .container-small {
-    display: flex;
-
-    gap: 90px;
-    .subHero__logo {
-      width: 210px;
+    min-height: 100%;
+    .subHero__wrapper {
+      min-height: 221px;
+      margin: 0 auto;
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+      flex-wrap: wrap;
+      justify-content: space-between;
       align-items: center;
-      gap: 15px;
-      text-align: center;
-      padding-left: 14px;
-      padding-top: 8px;
-      .logo__icon {
-        height: 40px;
-        width: 40px;
+      .subHero__logo {
+        width: 210px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+        padding-left: 14px;
+        padding-top: 8px;
+        .logo__icon {
+          height: 40px;
+          width: 40px;
+        }
+        .logo__text {
+          font-family: $myFont;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #f5f5f5;
+          letter-spacing: 0.8px;
+          line-height: 24px;
+        }
       }
-      .logo__text {
-        font-family: $myFont;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: #f5f5f5;
-        letter-spacing: 0.8px;
-        line-height: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subHero {
+    .container-small {
+      .subHero__wrapper {
+        .subHero__logo:nth-child(1),
+        .subHero__logo:nth-child(2) {
+          width: 50%;
+        }
+        .subHero__logo:nth-child(3) {
+          width: 100%;
+        }
+        .subHero__logo:nth-child(4),
+        .subHero__logo:nth-child(5) {
+          width: 50%;
+        }
+        .subHero__logo {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subHero {
+    .container-small {
+      .subHero__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .subHero__logo:first-child {
+          margin-top: 30px;
+        }
+        .subHero__logo {
+          margin-bottom: 30px;
+        }
       }
     }
   }

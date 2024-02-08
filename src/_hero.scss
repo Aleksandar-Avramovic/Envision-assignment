@@ -22,7 +22,6 @@
     z-index: 1;
     width: 63%;
     margin-bottom: 33px;
-    padding-left: 76px;
 
     h1 {
       font-size: 60px;
@@ -42,13 +41,15 @@
   }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1219px) {
+@media screen and (max-width: 1450px) {
   .hero {
-    margin-top: -65px;
+    .hero__text--overlay {
+      margin-left: 16px;
+    }
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   .hero {
     .hero__text--overlay {
       width: 75%;
@@ -59,10 +60,18 @@
 @media screen and (max-width: 992px) {
   .hero {
     .hero__text--overlay {
-      width: 100%;
+      width: 90%;
       h1 {
-        font-size: 48px;
+        margin-right: 16px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    .hero__text--overlay {
+      width: 100%;
     }
   }
 }

@@ -247,7 +247,7 @@ header .header__content p {
     margin-left: 16px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   header .header__content nav {
     display: none;
   }
@@ -278,7 +278,6 @@ header .header__content p {
   z-index: 1;
   width: 63%;
   margin-bottom: 33px;
-  padding-left: 76px;
 }
 .hero .hero__text--overlay h1 {
   font-size: 60px;
@@ -294,38 +293,48 @@ header .header__content p {
   display: inline-block;
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1219px) {
-  .hero {
-    margin-top: -65px;
+@media screen and (max-width: 1450px) {
+  .hero .hero__text--overlay {
+    margin-left: 16px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   .hero .hero__text--overlay {
     width: 75%;
   }
 }
 @media screen and (max-width: 992px) {
   .hero .hero__text--overlay {
-    width: 100%;
+    width: 90%;
   }
   .hero .hero__text--overlay h1 {
-    font-size: 48px;
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero .hero__text--overlay {
+    width: 100%;
   }
 }
 .subHero {
-  height: 221px;
+  min-height: 221px;
   background-color: #212627;
   margin-top: -79px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .subHero .container-small {
-  display: flex;
-  gap: 90px;
+  min-height: 100%;
 }
-.subHero .container-small .subHero__logo {
+.subHero .container-small .subHero__wrapper {
+  min-height: 221px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.subHero .container-small .subHero__wrapper .subHero__logo {
   width: 210px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -335,11 +344,11 @@ header .header__content p {
   padding-left: 14px;
   padding-top: 8px;
 }
-.subHero .container-small .subHero__logo .logo__icon {
+.subHero .container-small .subHero__wrapper .subHero__logo .logo__icon {
   height: 40px;
   width: 40px;
 }
-.subHero .container-small .subHero__logo .logo__text {
+.subHero .container-small .subHero__wrapper .subHero__logo .logo__text {
   font-family: "aktivgrotesk-reguuploadedfile", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
@@ -348,6 +357,35 @@ header .header__content p {
   line-height: 24px;
 }
 
+@media screen and (max-width: 1200px) {
+  .subHero .container-small .subHero__wrapper .subHero__logo:nth-child(1),
+  .subHero .container-small .subHero__wrapper .subHero__logo:nth-child(2) {
+    width: 50%;
+  }
+  .subHero .container-small .subHero__wrapper .subHero__logo:nth-child(3) {
+    width: 100%;
+  }
+  .subHero .container-small .subHero__wrapper .subHero__logo:nth-child(4),
+  .subHero .container-small .subHero__wrapper .subHero__logo:nth-child(5) {
+    width: 50%;
+  }
+  .subHero .container-small .subHero__wrapper .subHero__logo {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subHero .container-small .subHero__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subHero .container-small .subHero__wrapper .subHero__logo:first-child {
+    margin-top: 30px;
+  }
+  .subHero .container-small .subHero__wrapper .subHero__logo {
+    margin-bottom: 30px;
+  }
+}
 .scrollingSection {
   min-height: 500px;
   margin-top: 144px;
