@@ -133,3 +133,30 @@
     }
   }
 }
+
+@media screen and (max-width: 1450px) {
+  .boxes-section {
+    .container-small {
+      h3 {
+        text-align: center;
+      }
+      .boxes {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxes-section {
+    .container-small {
+      .boxes {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-items: center;
+      }
+    }
+  }
+}

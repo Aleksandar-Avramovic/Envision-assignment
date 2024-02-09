@@ -1,5 +1,5 @@
-07.02.2024.
+09.02.2024.
 
-- odradi sekcije da budu responsive
+- odradi sekcije da budu responsive (popravi boxes section background img)
 - na sticky headeru dodati da linkovi budu u aktivnom stanju kada skrolujemo na odredjenu sekciju
 - pronadji kako da uradis import js fajlova u main.js koji ces importovati kroz script element u HTML
