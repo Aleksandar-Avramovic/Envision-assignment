@@ -317,6 +317,17 @@ header .header__content p {
     width: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url(../assets/images/EnvisionVideoBanner_logo_black_PosterImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero video {
+    display: none;
+  }
+}
 .subHero {
   min-height: 221px;
   background-color: #212627;
@@ -389,7 +400,7 @@ header .header__content p {
     flex-direction: column;
   }
   .subHero .container-small .subHero__wrapper .subHero__logo:last-child {
-    margin-top: 30px;
+    margin-top: 100px;
   }
   .subHero .container-small .subHero__wrapper .subHero__logo {
     margin-bottom: 30px;

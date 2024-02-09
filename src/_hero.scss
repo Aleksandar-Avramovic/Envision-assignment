@@ -76,3 +76,15 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url(../assets/images/EnvisionVideoBanner_logo_black_PosterImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    video {
+      display: none;
+    }
+  }
+}
