@@ -43,19 +43,29 @@
   .subHero {
     .container-small {
       .subHero__wrapper {
-        .subHero__logo:nth-child(1),
-        .subHero__logo:nth-child(2) {
+        .subHero__logo:nth-child(1) {
           width: 50%;
+        }
+        .subHero__logo:nth-child(2) {
+          width: 30%;
         }
         .subHero__logo:nth-child(3) {
-          width: 100%;
+          width: 30%;
         }
-        .subHero__logo:nth-child(4),
-        .subHero__logo:nth-child(5) {
+        .subHero__logo:nth-child(4) {
           width: 50%;
+        }
+        .subHero__logo:nth-child(5) {
+          width: 30%;
         }
         .subHero__logo {
           margin-top: 30px;
+        }
+        .subHero__logo:first-child {
+          order: 1;
+        }
+        .subHero__logo:last-child {
+          order: -1;
         }
       }
     }
@@ -66,14 +76,13 @@
   .subHero {
     .container-small {
       .subHero__wrapper {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        .subHero__logo:first-child {
+        .subHero__logo:last-child {
           margin-top: 30px;
         }
         .subHero__logo {
           margin-bottom: 30px;
+          text-wrap: nowrap;
         }
       }
     }
