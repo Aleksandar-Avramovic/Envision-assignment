@@ -213,12 +213,38 @@
 @media screen and (max-width: 768px) {
   .boxes-section {
     margin-top: -980px;
-    height: 4360px;
+    height: 4125px;
     .container-small {
       padding-top: 720px;
       .boxes {
         grid-template-columns: 1fr;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .boxes-section {
+    margin-top: -1020px;
+    height: 4145px;
+    .container-small {
+      padding-top: 760px;
+    }
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .boxes-section {
+    height: 4275px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .boxes-section {
+    margin-top: -1570px;
+    height: 4845px;
+    .container-small {
+      padding-top: 1320px;
     }
   }
 }
