@@ -219,7 +219,8 @@
           background-color: $primary-green;
           min-width: 100%;
           margin: 0;
-          text-align: center;
+          display: flex;
+
           border: 0;
           p {
             color: #fff;
